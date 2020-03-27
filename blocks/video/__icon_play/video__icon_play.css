@@ -1,0 +1,10 @@
+.video__icon_play{
+    z-index: 1;
+    padding: 30px 30px;
+}
+
+@media screen and (max-width: 768px){
+    .video__icon_play{
+        padding: 24px 24px;
+    }
+}

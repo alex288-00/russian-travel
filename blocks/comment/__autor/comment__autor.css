@@ -1,0 +1,11 @@
+.comment__autor{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 768px){
+    .comment__autor{
+        order: 1;
+    }
+}

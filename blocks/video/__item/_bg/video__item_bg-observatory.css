@@ -1,0 +1,34 @@
+.video__item_bg-observatory{
+    background-image: url(../image/observatory.png);
+    border-radius: 5px;
+    width: 583px;
+    height: 323px;
+}
+
+@media screen and (max-width: 1024px){
+    .video__item_bg-observatory{
+        width: 456px;
+        height: 288px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .video__item_bg-observatory{
+        width: 352px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .video__item_bg-observatory{
+        width: 343px;
+        
+    }
+}
+
+@media screen and (max-width: 320px){
+    .video__item_bg-observatory{
+        width: 288px;
+        height: 192px;
+    }
+}

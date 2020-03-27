@@ -1,0 +1,7 @@
+.header__lang{
+    display: flex;
+}
+
+.header__lang:active{
+    text-decoration: underline;
+}
