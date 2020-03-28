@@ -1,13 +1,29 @@
 @import url(./__title/intro__title.css);
 @import url(./__content-row/intro__content-row.css);
 @import url(./__text/intro__text.css);
+@import url(./__text/_number/intro__text_number.css);
 .intro{
     max-width: 928px;
     margin: 0 auto 100px;
 }
 
+
+@media screen and (max-width: 768px){
+    .intro{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
 @media screen and (max-width: 425px){
     .intro{
         margin-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .intro{
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }

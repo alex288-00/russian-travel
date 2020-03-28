@@ -19,15 +19,27 @@
     }
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 678px){
     .video__item_bg-kamchatka{
         margin-bottom: 8px;
+        width: 450px;
+        height: 250px;
+
+    }
+}
+
+@media screen and (max-width: 520px){
+    .video__item_bg-kamchatka{
+        width: 350px;
+        height: 200px;
+
     }
 }
 
 @media screen and (max-width: 375px){
     .video__item_bg-kamchatka{
         width: 343px;
+        height: 200px;
         
     }
 }

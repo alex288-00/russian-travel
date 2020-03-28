@@ -7,5 +7,26 @@
     grid-template-rows: repeat(auto-fit, 188px);
     justify-content: center;
     margin: 0 auto;
+}
 
+@media screen and (max-width: 1436px){
+    .photo-grid{
+        padding-left: 48px;
+        padding-right: 48px;
+
+    }
+}
+
+@media screen and (max-width: 768px){
+    .photo-grid{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .photo-grid{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }

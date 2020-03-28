@@ -7,7 +7,7 @@
     align-items: center;
     position: relative;
     background-image: url(../image/cover.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
   }
 
@@ -19,7 +19,7 @@
     top: 0;
     left: 0;
     z-index: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
   .cover__link:hover::before {
@@ -34,9 +34,27 @@
     }
 }
 
+@media screen and (max-width: 870px){
+  .cover__link{
+    height: 520px;
+  }
+}
+
 @media screen and (max-width: 768px){
   .cover__link{
     height: 500px;
+  }
+}
+
+@media screen and (max-width: 544px){
+  .cover__link{
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .cover__link{
+    height: 350px;
   }
 }
 
