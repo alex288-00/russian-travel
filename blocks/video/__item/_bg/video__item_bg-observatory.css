@@ -36,9 +36,9 @@
     }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 400px){
     .video__item_bg-observatory{
-        width: 343px;
+        width: 288px;
         height: 200px;
         
     }
@@ -47,6 +47,13 @@
 @media screen and (max-width: 320px){
     .video__item_bg-observatory{
         width: 288px;
+        height: 192px;
+    }
+}
+
+@media screen and (max-width: 240px){
+    .video__item_bg-observatory{
+        width: 200px;
         height: 192px;
     }
 }
