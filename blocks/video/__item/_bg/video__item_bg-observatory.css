@@ -1,8 +1,8 @@
 .video__item_bg-observatory{
     background-image: url(../image/observatory.png);
     border-radius: 5px;
-    width: 583px;
-    height: 323px;
+    width: 583px; 
+    height: 323px; 
 }
 
 @media screen and (max-width: 1024px){
